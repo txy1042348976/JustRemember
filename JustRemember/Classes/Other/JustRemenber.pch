@@ -1,0 +1,36 @@
+//
+//  JustRemenber.pch
+//  JustRemember
+//
+//  Created by rising on 16/5/24.
+//  Copyright © 2016年 rising. All rights reserved.
+//
+
+#ifndef JustRemenber_pch
+#define JustRemenber_pch
+#ifdef __OBJC__
+#import "Masonry.h"
+#import "UIBarButtonItem+RXExtension.h"
+#import <QuartzCore/QuartzCore.h>
+
+
+
+
+//设备物理尺寸
+#define screen_width [UIScreen mainScreen].bounds.size.width
+#define screen_height [UIScreen mainScreen].bounds.size.height
+#define Width [UIScreen mainScreen].bounds.size.width/320.0
+#define Height [UIScreen mainScreen].bounds.size.height/568.0
+
+
+
+//Masonry
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#endif
+#endif /* JustRemenber_pch */
